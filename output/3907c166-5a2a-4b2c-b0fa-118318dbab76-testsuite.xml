@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1582984032816' stop='1582984056549'>
+    <name>Book a round trip:</name>
+    <title>Book a round trip:</title>
+    <test-cases>
+        <test-case start='1582984032818' status='failed' stop='1582984054985'>
+            <name>Book Flight from Banaglore to Delhi</name>
+            <title>Book Flight from Banaglore to Delhi</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1582984034895' status='failed' stop='1582984054900'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='1b09c414-812b-4da6-8f3f-25575acf4e20-attachment.png' type='image/png' size='107065'/>
+            </attachments>
+            <failure>
+                <message>Navigation timeout of 20000 ms exceeded</message>
+                <stack-trace>TimeoutError: Navigation timeout of 20000 ms exceeded
+                    at D:\cleartripautomation\node_modules\puppeteer\lib\LifecycleWatcher.js:142:21
+                  -- ASYNC --
+                    at Frame.&lt;anonymous> (D:\cleartripautomation\node_modules\puppeteer\lib\helper.js:111:15)
+                    at Page.goto (D:\cleartripautomation\node_modules\puppeteer\lib\Page.js:670:49)
+                    at Page.&lt;anonymous> (D:\cleartripautomation\node_modules\puppeteer\lib\helper.js:112:23)
+                    at Puppeteer.amOnPage (D:\cleartripautomation\node_modules\codeceptjs\lib\helper\Puppeteer.js:553:21)
+                    at Step.run (D:\cleartripautomation\node_modules\codeceptjs\lib\step.js:70:47)
+                    at D:\cleartripautomation\node_modules\codeceptjs\lib\actor.js:92:23</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,135 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583088236515' stop='1583088269792'>
+    <name>Book a round trip:</name>
+    <title>Book a round trip:</title>
+    <test-cases>
+        <test-case start='1583088236517' status='failed' stop='1583088252635'>
+            <name>Test Login | {"login":"Jeeshan","password":"ASQW"} @datadriventest</name>
+            <title>Test Login | {"login":"Jeeshan","password":"ASQW"} @datadriventest</title>
+            <labels>
+                <label name='tag' value='@datadriventest'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1583088238762' status='passed' stop='1583088250900'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1583088250901' status='failed' stop='1583088252634'>
+                    <name>Object: clickElement </name>
+                    <title>Object: clickElement </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1583088250901' status='passed' stop='1583088250911'>
+                            <name>I wait for element "#userAccountLink"</name>
+                            <title>I wait for element "#userAccountLink"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583088251013' status='passed' stop='1583088251764'>
+                            <name>I click "#userAccountLink"</name>
+                            <title>I click "#userAccountLink"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583088251767' status='passed' stop='1583088251776'>
+                            <name>I wait for element "#SignIn"</name>
+                            <title>I wait for element "#SignIn"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583088251886' status='passed' stop='1583088252629'>
+                            <name>I click "#SignIn"</name>
+                            <title>I click "#SignIn"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='666ee60b-c7ba-4ac0-ab70-a82471a262e1-attachment.png' type='image/png' size='96131'/>
+            </attachments>
+            <failure>
+                <message>Cannot read property 'enterDataInForm' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'enterDataInForm' of undefined
+                    at Object.enterUserCredentials (D:\cleartripautomation\pages\signIn.js:21:15)
+                    at Test.&lt;anonymous> (D:\cleartripautomation\tests\signin_test.js:13:12)
+                    at Context.test.fn (D:\cleartripautomation\node_modules\codeceptjs\lib\scenario.js:78:14)
+                    at callFnAsync (D:\cleartripautomation\node_modules\mocha\lib\runnable.js:415:21)
+                    at Test.Runnable.run (D:\cleartripautomation\node_modules\mocha\lib\runnable.js:357:7)
+                    at Runner.runTest (D:\cleartripautomation\node_modules\mocha\lib\runner.js:535:10)
+                    at D:\cleartripautomation\node_modules\mocha\lib\runner.js:653:12
+                    at next (D:\cleartripautomation\node_modules\mocha\lib\runner.js:447:14)
+                    at D:\cleartripautomation\node_modules\mocha\lib\runner.js:457:7
+                    at next (D:\cleartripautomation\node_modules\mocha\lib\runner.js:362:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1583088254573' status='failed' stop='1583088267910'>
+            <name>Test Login | {"login":"Pranav","password":"pranav"} @datadriventest</name>
+            <title>Test Login | {"login":"Pranav","password":"pranav"} @datadriventest</title>
+            <labels>
+                <label name='tag' value='@datadriventest'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1583088256274' status='passed' stop='1583088266203'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1583088266204' status='failed' stop='1583088267910'>
+                    <name>Object: clickElement </name>
+                    <title>Object: clickElement </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1583088266204' status='passed' stop='1583088266211'>
+                            <name>I wait for element "#userAccountLink"</name>
+                            <title>I wait for element "#userAccountLink"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583088266312' status='passed' stop='1583088267051'>
+                            <name>I click "#userAccountLink"</name>
+                            <title>I click "#userAccountLink"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583088267052' status='passed' stop='1583088267059'>
+                            <name>I wait for element "#SignIn"</name>
+                            <title>I wait for element "#SignIn"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583088267160' status='passed' stop='1583088267905'>
+                            <name>I click "#SignIn"</name>
+                            <title>I click "#SignIn"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='26eb986a-c92b-4ddb-a466-3d31b170632f-attachment.png' type='image/png' size='96131'/>
+            </attachments>
+            <failure>
+                <message>Cannot read property 'enterDataInForm' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'enterDataInForm' of undefined
+                    at Object.enterUserCredentials (D:\cleartripautomation\pages\signIn.js:21:15)
+                    at Test.&lt;anonymous> (D:\cleartripautomation\tests\signin_test.js:13:12)
+                    at Context.test.fn (D:\cleartripautomation\node_modules\codeceptjs\lib\scenario.js:78:14)
+                    at callFnAsync (D:\cleartripautomation\node_modules\mocha\lib\runnable.js:415:21)
+                    at Test.Runnable.run (D:\cleartripautomation\node_modules\mocha\lib\runnable.js:357:7)
+                    at Runner.runTest (D:\cleartripautomation\node_modules\mocha\lib\runner.js:535:10)
+                    at D:\cleartripautomation\node_modules\mocha\lib\runner.js:653:12
+                    at next (D:\cleartripautomation\node_modules\mocha\lib\runner.js:447:14)
+                    at D:\cleartripautomation\node_modules\mocha\lib\runner.js:457:7
+                    at next (D:\cleartripautomation\node_modules\mocha\lib\runner.js:362:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

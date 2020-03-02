@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1582984680322' stop='1582984682344'>
+    <name>Book a round trip:</name>
+    <title>Book a round trip:</title>
+    <test-cases>
+        <test-case start='1582984680324' status='failed' stop='1582984681639'>
+            <name>Book Flight from Banaglore to Delhi</name>
+            <title>Book Flight from Banaglore to Delhi</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='5da6e6bc-2d7a-4de8-8e4f-44534b84655d-attachment.png' type='image/png' size='4692'/>
+            </attachments>
+            <failure>
+                <message>Unexpected token . in JSON at position 0</message>
+                <stack-trace>SyntaxError: Unexpected token . in JSON at position 0
+                    at JSON.parse (&lt;anonymous>)
+                    at Object.getJsonObject (D:\cleartripautomation\helperutils\jsonreaderutil.js:2:17)
+                    at Test.&lt;anonymous> (D:\cleartripautomation\tests\roundtrip_test.js:8:26)
+                    at Context.test.fn (D:\cleartripautomation\node_modules\codeceptjs\lib\scenario.js:78:14)
+                    at callFnAsync (D:\cleartripautomation\node_modules\mocha\lib\runnable.js:415:21)
+                    at Test.Runnable.run (D:\cleartripautomation\node_modules\mocha\lib\runnable.js:357:7)
+                    at Runner.runTest (D:\cleartripautomation\node_modules\mocha\lib\runner.js:535:10)
+                    at D:\cleartripautomation\node_modules\mocha\lib\runner.js:653:12
+                    at next (D:\cleartripautomation\node_modules\mocha\lib\runner.js:447:14)
+                    at D:\cleartripautomation\node_modules\mocha\lib\runner.js:457:7</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

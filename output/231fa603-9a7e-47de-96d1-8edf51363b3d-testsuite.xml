@@ -1,0 +1,141 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583088627256' stop='1583088665586'>
+    <name>Book a round trip:</name>
+    <title>Book a round trip:</title>
+    <test-cases>
+        <test-case start='1583088627259' status='failed' stop='1583088646247'>
+            <name>Test Login | {"login":"Jeeshan","password":"ASQW"} @datadriventest</name>
+            <title>Test Login | {"login":"Jeeshan","password":"ASQW"} @datadriventest</title>
+            <labels>
+                <label name='tag' value='@datadriventest'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1583088629035' status='passed' stop='1583088639707'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1583088639708' status='passed' stop='1583088641452'>
+                    <name>Object: clickElement </name>
+                    <title>Object: clickElement </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1583088639708' status='passed' stop='1583088639717'>
+                            <name>I wait for element "#userAccountLink"</name>
+                            <title>I wait for element "#userAccountLink"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583088639820' status='passed' stop='1583088640556'>
+                            <name>I click "#userAccountLink"</name>
+                            <title>I click "#userAccountLink"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583088640557' status='passed' stop='1583088640564'>
+                            <name>I wait for element "#SignIn"</name>
+                            <title>I wait for element "#SignIn"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583088640668' status='passed' stop='1583088641422'>
+                            <name>I click "#SignIn"</name>
+                            <title>I click "#SignIn"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1583088641452' status='failed' stop='1583088646247'>
+                    <name>Within "#modal_window" </name>
+                    <title>Within "#modal_window" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1583088641452' status='failed' stop='1583088646231'>
+                            <name>I see element "#email"</name>
+                            <title>I see element "#email"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='411a66a4-0bdc-4af1-9d67-e4ca369c78be-attachment.png' type='image/png' size='96021'/>
+            </attachments>
+            <failure>
+                <message></message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1583088648006' status='failed' stop='1583088663873'>
+            <name>Test Login | {"login":"Pranav","password":"pranav"} @datadriventest</name>
+            <title>Test Login | {"login":"Pranav","password":"pranav"} @datadriventest</title>
+            <labels>
+                <label name='tag' value='@datadriventest'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1583088649922' status='passed' stop='1583088657313'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1583088657315' status='passed' stop='1583088659159'>
+                    <name>Object: clickElement </name>
+                    <title>Object: clickElement </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1583088657315' status='passed' stop='1583088657322'>
+                            <name>I wait for element "#userAccountLink"</name>
+                            <title>I wait for element "#userAccountLink"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583088657426' status='passed' stop='1583088658163'>
+                            <name>I click "#userAccountLink"</name>
+                            <title>I click "#userAccountLink"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583088658164' status='passed' stop='1583088658170'>
+                            <name>I wait for element "#SignIn"</name>
+                            <title>I wait for element "#SignIn"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583088658272' status='passed' stop='1583088659019'>
+                            <name>I click "#SignIn"</name>
+                            <title>I click "#SignIn"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1583088659159' status='failed' stop='1583088663873'>
+                    <name>Within "#modal_window" </name>
+                    <title>Within "#modal_window" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1583088659159' status='failed' stop='1583088663861'>
+                            <name>I see element "#email"</name>
+                            <title>I see element "#email"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='37c3df6f-819f-41e6-93cd-a3024bb6937a-attachment.png' type='image/png' size='95928'/>
+            </attachments>
+            <failure>
+                <message></message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

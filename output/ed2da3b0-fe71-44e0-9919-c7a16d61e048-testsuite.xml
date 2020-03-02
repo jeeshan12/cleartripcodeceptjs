@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583168637580' stop='1583168650323'>
+    <name>Testing the api feature:</name>
+    <title>Testing the api feature:</title>
+    <test-cases>
+        <test-case start='1583168637581' status='failed' stop='1583168649492'>
+            <name>Testing post request @apipost</name>
+            <title>Testing post request @apipost</title>
+            <labels>
+                <label name='tag' value='@apipost'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1583168639298' status='failed' stop='1583168649490'>
+                    <name>I send post request "/posts", {"userId":200,"title":"Best Triology","body":"LOTR"}</name>
+                    <title>I send post request "/posts", {"userId":200,"title":"Best Triology","body":"LOTR"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='fda8bbcd-1de5-4f8b-aef9-ada3d6b29072-attachment.png' type='image/png' size='4692'/>
+            </attachments>
+            <failure>
+                <message>timeout of 10000ms exceeded</message>
+                <stack-trace>Error: timeout of 10000ms exceeded
+                    at createError (D:\cleartripautomation\node_modules\axios\lib\core\createError.js:16:15)
+                    at ClientRequest.handleRequestTimeout (D:\cleartripautomation\node_modules\axios\lib\adapters\http.js:256:16)
+                    at Object.onceWrapper (events.js:312:28)
+                    at ClientRequest.emit (events.js:228:7)
+                    at TLSSocket.emitRequestTimeout (_http_client.js:690:9)
+                    at Object.onceWrapper (events.js:312:28)
+                    at TLSSocket.emit (events.js:223:5)
+                    at TLSSocket.Socket._onTimeout (net.js:474:8)
+                    at listOnTimeout (internal/timers.js:531:17)
+                    at processTimers (internal/timers.js:475:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

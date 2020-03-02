@@ -1,0 +1,63 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583164046150' stop='1583164078455'>
+    <name>Flight Deals Scenario : Switching tab:</name>
+    <title>Flight Deals Scenario : Switching tab:</title>
+    <test-cases>
+        <test-case start='1583164046151' status='failed' stop='1583164075598'>
+            <name>Test will check the flightDeals @newwindow</name>
+            <title>Test will check the flightDeals @newwindow</title>
+            <labels>
+                <label name='tag' value='@newwindow'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1583164047964' status='passed' stop='1583164067123'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1583164067123' status='passed' stop='1583164068042'>
+                    <name>Object: clickElement </name>
+                    <title>Object: clickElement </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1583164067123' status='passed' stop='1583164067134'>
+                            <name>I wait for element "//a[contains(@title,"Top flight deals")]"</name>
+                            <title>I wait for element "//a[contains(@title,"Top flight deals")]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583164067235' status='passed' stop='1583164068042'>
+                            <name>I click "//a[contains(@title,"Top flight deals")]"</name>
+                            <title>I click "//a[contains(@title,"Top flight deals")]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1583164068042' status='passed' stop='1583164070837'>
+                    <name>I switch to next tab 1</name>
+                    <title>I switch to next tab 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1583164070938' status='failed' stop='1583164075597'>
+                    <name>I fill field "#edit-name", "Jeeshan"</name>
+                    <title>I fill field "#edit-name", "Jeeshan"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='43d41300-e01e-4e42-8f8f-fcd63d6ee1dd-attachment.png' type='image/png' size='173024'/>
+            </attachments>
+            <failure>
+                <message>Cannot read property '$$' of null</message>
+                <stack-trace>TypeError: Cannot read property '$$' of null
+                    at findElements (D:\cleartripautomation\node_modules\codeceptjs\lib\helper\Puppeteer.js:2083:42)
+                    at Puppeteer._locate (D:\cleartripautomation\node_modules\codeceptjs\lib\helper\Puppeteer.js:736:12)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -4,8 +4,8 @@ const {
 module.exports = {
 
     enterTextIntoTextBox(locator, valueToEnter) {
-        I.seeElement(locator);
         I.waitForElement(locator);
+        I.seeElement(locator);
         I.fillField(locator, valueToEnter)
     },
 
@@ -32,6 +32,18 @@ module.exports = {
         let loc = locate(locator).find(childLocator).withText(valueToSelect)
         this.clickElement(loc)
 
+    },
+
+    switchToNextTabInBrowser(number) {
+        I.switchToNextTab(number)
+    },
+
+    switchToPreviousTabInBrowser() {
+        I.switchToPreviousTab()
+    },
+
+    closeCurrentTabInBrowser() {
+        I.closeCurrentTab()
     }
 
 }

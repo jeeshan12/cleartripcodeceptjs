@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583167755812' stop='1583167780152'>
+    <name>Testing the api feature:</name>
+    <title>Testing the api feature:</title>
+    <test-cases>
+        <test-case start='1583167755815' status='failed' stop='1583167777435'>
+            <name>Get Request @apitest</name>
+            <title>Get Request @apitest</title>
+            <labels>
+                <label name='tag' value='@apitest'/>
+            </labels>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='f68d9ef2-87c4-4893-8869-e27a886edce8-attachment.png' type='image/png' size='4692'/>
+            </attachments>
+            <failure>
+                <message>I.sendGetRequest is not a function</message>
+                <stack-trace>TypeError: I.sendGetRequest is not a function
+                    at Test.&lt;anonymous> (D:\cleartripautomation\tests\api_test.js:7:7)
+                    at Context.test.fn (D:\cleartripautomation\node_modules\codeceptjs\lib\scenario.js:78:14)
+                    at callFnAsync (D:\cleartripautomation\node_modules\mocha\lib\runnable.js:415:21)
+                    at Test.Runnable.run (D:\cleartripautomation\node_modules\mocha\lib\runnable.js:357:7)
+                    at Runner.runTest (D:\cleartripautomation\node_modules\mocha\lib\runner.js:535:10)
+                    at D:\cleartripautomation\node_modules\mocha\lib\runner.js:653:12
+                    at next (D:\cleartripautomation\node_modules\mocha\lib\runner.js:447:14)
+                    at D:\cleartripautomation\node_modules\mocha\lib\runner.js:457:7
+                    at next (D:\cleartripautomation\node_modules\mocha\lib\runner.js:362:14)
+                    at D:\cleartripautomation\node_modules\mocha\lib\runner.js:420:7</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

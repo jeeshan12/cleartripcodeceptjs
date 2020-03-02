@@ -1,0 +1,257 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1582984759711' stop='1582984800263'>
+    <name>Book a round trip:</name>
+    <title>Book a round trip:</title>
+    <test-cases>
+        <test-case start='1582984759712' status='failed' stop='1582984798624'>
+            <name>Book Flight from Banaglore to Delhi</name>
+            <title>Book Flight from Banaglore to Delhi</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1582984761144' status='passed' stop='1582984770492'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1582984770492' status='passed' stop='1582984771387'>
+                    <name>Object: checkCheckBoxOrRadioButton </name>
+                    <title>Object: checkCheckBoxOrRadioButton </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1582984770492' status='passed' stop='1582984770507'>
+                            <name>I dont see checkbox is checked "#RoundTrip"</name>
+                            <title>I dont see checkbox is checked "#RoundTrip"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1582984770609' status='passed' stop='1582984771387'>
+                            <name>I check option "#RoundTrip"</name>
+                            <title>I check option "#RoundTrip"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1582984771387' status='passed' stop='1582984773251'>
+                    <name>Object: enterTextIntoTextBox </name>
+                    <title>Object: enterTextIntoTextBox </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1582984771387' status='passed' stop='1582984771396'>
+                            <name>I see element "#FromTag"</name>
+                            <title>I see element "#FromTag"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1582984771396' status='passed' stop='1582984771407'>
+                            <name>I wait for element "#FromTag"</name>
+                            <title>I wait for element "#FromTag"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1582984771511' status='passed' stop='1582984773251'>
+                            <name>I fill field "#FromTag", "Bangalore"</name>
+                            <title>I fill field "#FromTag", "Bangalore"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1582984773251' status='passed' stop='1582984774580'>
+                    <name>Object: clickElement </name>
+                    <title>Object: clickElement </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1582984773251' status='passed' stop='1582984773705'>
+                            <name>I wait for element {xpath: .//*[./@id = 'ui-id-1']//a[contains(., 'Bangalore, IN - Kempegowda International Airport (BLR)')]}</name>
+                            <title>I wait for element {xpath: .//*[./@id = 'ui-id-1']//a[contains(., 'Bangalore, IN - Kempegowda International Airport (BLR)')]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1582984773809' status='passed' stop='1582984774580'>
+                            <name>I click {xpath: .//*[./@id = 'ui-id-1']//a[contains(., 'Bangalore, IN - Kempegowda International Airport (BLR)')]}</name>
+                            <title>I click {xpath: .//*[./@id = 'ui-id-1']//a[contains(., 'Bangalore, IN - Kempegowda International Airport (BLR)')]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1582984774580' status='passed' stop='1582984775983'>
+                    <name>Object: enterTextIntoTextBox </name>
+                    <title>Object: enterTextIntoTextBox </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1582984774580' status='passed' stop='1582984774585'>
+                            <name>I see element "#ToTag"</name>
+                            <title>I see element "#ToTag"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1582984774585' status='passed' stop='1582984774591'>
+                            <name>I wait for element "#ToTag"</name>
+                            <title>I wait for element "#ToTag"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1582984774693' status='passed' stop='1582984775983'>
+                            <name>I fill field "#ToTag", "Delhi"</name>
+                            <title>I fill field "#ToTag", "Delhi"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1582984775983' status='passed' stop='1582984779258'>
+                    <name>Object: clickElement </name>
+                    <title>Object: clickElement </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1582984775983' status='passed' stop='1582984776608'>
+                            <name>I wait for element {xpath: .//*[./@id = 'ui-id-2']//a[contains(., 'New Delhi, IN - Indira Gandhi Airport (DEL)')]}</name>
+                            <title>I wait for element {xpath: .//*[./@id = 'ui-id-2']//a[contains(., 'New Delhi, IN - Indira Gandhi Airport (DEL)')]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1582984776708' status='passed' stop='1582984777483'>
+                            <name>I click {xpath: .//*[./@id = 'ui-id-2']//a[contains(., 'New Delhi, IN - Indira Gandhi Airport (DEL)')]}</name>
+                            <title>I click {xpath: .//*[./@id = 'ui-id-2']//a[contains(., 'New Delhi, IN - Indira Gandhi Airport (DEL)')]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1582984777483' status='passed' stop='1582984777490'>
+                            <name>I wait for element {xpath: //*[@class='monthBlock first']//table//tbody//td[not(contains(@class,'disabled'))]//a[contains(., '29')]}</name>
+                            <title>I wait for element {xpath: //*[@class='monthBlock first']//table//tbody//td[not(contains(@class,'disabled'))]//a[contains(., '29')]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1582984777591' status='passed' stop='1582984778371'>
+                            <name>I click {xpath: //*[@class='monthBlock first']//table//tbody//td[not(contains(@class,'disabled'))]//a[contains(., '29')]}</name>
+                            <title>I click {xpath: //*[@class='monthBlock first']//table//tbody//td[not(contains(@class,'disabled'))]//a[contains(., '29')]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1582984778371' status='passed' stop='1582984778383'>
+                            <name>I wait for element {xpath: //*//a[contains(., '4')]}</name>
+                            <title>I wait for element {xpath: //*//a[contains(., '4')]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1582984778493' status='passed' stop='1582984779258'>
+                            <name>I click {xpath: //*//a[contains(., '4')]}</name>
+                            <title>I click {xpath: //*//a[contains(., '4')]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1582984779258' status='passed' stop='1582984780852'>
+                    <name>Object: selectDataFromDropDown </name>
+                    <title>Object: selectDataFromDropDown </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1582984779258' status='passed' stop='1582984779799'>
+                            <name>I select option "#Adults", "2"</name>
+                            <title>I select option "#Adults", "2"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1582984779800' status='passed' stop='1582984780333'>
+                            <name>I select option "#Childrens", "1"</name>
+                            <title>I select option "#Childrens", "1"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1582984780333' status='passed' stop='1582984780851'>
+                            <name>I select option "#Infants", "1"</name>
+                            <title>I select option "#Infants", "1"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1582984780852' status='passed' stop='1582984781686'>
+                    <name>Object: clickElement </name>
+                    <title>Object: clickElement </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1582984780852' status='passed' stop='1582984780858'>
+                            <name>I wait for element "#MoreOptionsLink"</name>
+                            <title>I wait for element "#MoreOptionsLink"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1582984780959' status='passed' stop='1582984781686'>
+                            <name>I click "#MoreOptionsLink"</name>
+                            <title>I click "#MoreOptionsLink"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1582984781686' status='passed' stop='1582984782210'>
+                    <name>Object: selectDataFromDropDown </name>
+                    <title>Object: selectDataFromDropDown </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1582984781686' status='passed' stop='1582984782210'>
+                            <name>I select option "#Class", "First"</name>
+                            <title>I select option "#Class", "First"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1582984782210' status='passed' stop='1582984783617'>
+                    <name>Object: enterTextIntoTextBox </name>
+                    <title>Object: enterTextIntoTextBox </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1582984782210' status='passed' stop='1582984782215'>
+                            <name>I see element "#AirlineAutocomplete"</name>
+                            <title>I see element "#AirlineAutocomplete"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1582984782215' status='passed' stop='1582984782223'>
+                            <name>I wait for element "#AirlineAutocomplete"</name>
+                            <title>I wait for element "#AirlineAutocomplete"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1582984782326' status='passed' stop='1582984783616'>
+                            <name>I fill field "#AirlineAutocomplete", "Indig"</name>
+                            <title>I fill field "#AirlineAutocomplete", "Indig"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1582984783617' status='failed' stop='1582984798624'>
+                    <name>Object: clickElement </name>
+                    <title>Object: clickElement </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1582984783617' status='failed' stop='1582984798623'>
+                            <name>I wait for element {xpath: .//*[./@id = 'ui-id-3']//a[contains(., 'IndiGo (6E)')]}</name>
+                            <title>I wait for element {xpath: .//*[./@id = 'ui-id-3']//a[contains(., 'IndiGo (6E)')]}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='c761d909-4a3e-4da7-a08b-6d7f44dcd021-attachment.png' type='image/png' size='114453'/>
+            </attachments>
+            <failure>
+                <message>element ({xpath: .//*[./@id = 'ui-id-3']//a[contains(., 'IndiGo (6E)')]}) still not present on page after 15 sec
+                waiting for XPath ".//*[./@id = 'ui-id-3']//a[contains(., 'IndiGo (6E)')]" failed: timeout 15000ms exceeded</message>
+                <stack-trace>Error: element ({xpath: .//*[./@id = 'ui-id-3']//a[contains(., 'IndiGo (6E)')]}) still not present on page after 15 sec
+                waiting for XPath ".//*[./@id = 'ui-id-3']//a[contains(., 'IndiGo (6E)')]" failed: timeout 15000ms exceeded
+                    at D:\cleartripautomation\node_modules\codeceptjs\lib\helper\Puppeteer.js:1761:13</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

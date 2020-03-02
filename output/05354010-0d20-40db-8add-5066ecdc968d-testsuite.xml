@@ -1,0 +1,83 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583088173917' stop='1583088178335'>
+    <name>Book a round trip:</name>
+    <title>Book a round trip:</title>
+    <test-cases>
+        <test-case start='1583088173918' status='failed' stop='1583088175378'>
+            <name>Test Login | {"login":"Jeeshan","password":"ASQW"} @datadriventest</name>
+            <title>Test Login | {"login":"Jeeshan","password":"ASQW"} @datadriventest</title>
+            <labels>
+                <label name='tag' value='@datadriventest'/>
+            </labels>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='16d732df-d422-4437-a14e-c372c0fb5309-attachment.png' type='image/png' size='4692'/>
+            </attachments>
+            <failure>
+                <message>Could not include object signIn from module 'D:\cleartripautomation\pages\signIn.js'
+                Could not include object modal from module 'D:\cleartripautomation\fragements\modal.js'
+                Cannot find module 'D:\cleartripautomation\fragements\modal.js'
+                Require stack:
+                - D:\cleartripautomation\node_modules\codeceptjs\lib\container.js
+                - D:\cleartripautomation\node_modules\codeceptjs\lib\codecept.js
+                - D:\cleartripautomation\node_modules\codeceptjs\bin\codecept.js</message>
+                <stack-trace>Error: Could not include object signIn from module 'D:\cleartripautomation\pages\signIn.js'
+                Could not include object modal from module 'D:\cleartripautomation\fragements\modal.js'
+                Cannot find module 'D:\cleartripautomation\fragements\modal.js'
+                Require stack:
+                - D:\cleartripautomation\node_modules\codeceptjs\lib\container.js
+                - D:\cleartripautomation\node_modules\codeceptjs\lib\codecept.js
+                - D:\cleartripautomation\node_modules\codeceptjs\bin\codecept.js
+                    at loadSupportObject (D:\cleartripautomation\node_modules\codeceptjs\lib\container.js:330:11)
+                    at getSupportObject (D:\cleartripautomation\node_modules\codeceptjs\lib\container.js:284:12)
+                    at lazyLoad (D:\cleartripautomation\node_modules\codeceptjs\lib\container.js:194:18)
+                    at Object.get (D:\cleartripautomation\node_modules\codeceptjs\lib\container.js:242:24)
+                    at getInjectedArguments (D:\cleartripautomation\node_modules\codeceptjs\lib\scenario.js:197:17)
+                    at Context.test.fn (D:\cleartripautomation\node_modules\codeceptjs\lib\scenario.js:78:26)
+                    at callFnAsync (D:\cleartripautomation\node_modules\mocha\lib\runnable.js:415:21)
+                    at Test.Runnable.run (D:\cleartripautomation\node_modules\mocha\lib\runnable.js:357:7)
+                    at Runner.runTest (D:\cleartripautomation\node_modules\mocha\lib\runner.js:535:10)
+                    at D:\cleartripautomation\node_modules\mocha\lib\runner.js:653:12</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1583088176021' status='failed' stop='1583088177654'>
+            <name>Test Login | {"login":"Pranav","password":"pranav"} @datadriventest</name>
+            <title>Test Login | {"login":"Pranav","password":"pranav"} @datadriventest</title>
+            <labels>
+                <label name='tag' value='@datadriventest'/>
+            </labels>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='4aea73dc-422e-415c-a412-5eadf956d6e0-attachment.png' type='image/png' size='4692'/>
+            </attachments>
+            <failure>
+                <message>Could not include object signIn from module 'D:\cleartripautomation\pages\signIn.js'
+                Could not include object modal from module 'D:\cleartripautomation\fragements\modal.js'
+                Cannot find module 'D:\cleartripautomation\fragements\modal.js'
+                Require stack:
+                - D:\cleartripautomation\node_modules\codeceptjs\lib\container.js
+                - D:\cleartripautomation\node_modules\codeceptjs\lib\codecept.js
+                - D:\cleartripautomation\node_modules\codeceptjs\bin\codecept.js</message>
+                <stack-trace>Error: Could not include object signIn from module 'D:\cleartripautomation\pages\signIn.js'
+                Could not include object modal from module 'D:\cleartripautomation\fragements\modal.js'
+                Cannot find module 'D:\cleartripautomation\fragements\modal.js'
+                Require stack:
+                - D:\cleartripautomation\node_modules\codeceptjs\lib\container.js
+                - D:\cleartripautomation\node_modules\codeceptjs\lib\codecept.js
+                - D:\cleartripautomation\node_modules\codeceptjs\bin\codecept.js
+                    at loadSupportObject (D:\cleartripautomation\node_modules\codeceptjs\lib\container.js:330:11)
+                    at getSupportObject (D:\cleartripautomation\node_modules\codeceptjs\lib\container.js:284:12)
+                    at lazyLoad (D:\cleartripautomation\node_modules\codeceptjs\lib\container.js:194:18)
+                    at Object.get (D:\cleartripautomation\node_modules\codeceptjs\lib\container.js:242:24)
+                    at getInjectedArguments (D:\cleartripautomation\node_modules\codeceptjs\lib\scenario.js:197:17)
+                    at Context.test.fn (D:\cleartripautomation\node_modules\codeceptjs\lib\scenario.js:78:26)
+                    at callFnAsync (D:\cleartripautomation\node_modules\mocha\lib\runnable.js:415:21)
+                    at Test.Runnable.run (D:\cleartripautomation\node_modules\mocha\lib\runnable.js:357:7)
+                    at Runner.runTest (D:\cleartripautomation\node_modules\mocha\lib\runner.js:535:10)
+                    at D:\cleartripautomation\node_modules\mocha\lib\runner.js:653:12</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

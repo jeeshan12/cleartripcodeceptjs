@@ -1,0 +1,73 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583087320241' stop='1583087353109'>
+    <name>Book a round trip:</name>
+    <title>Book a round trip:</title>
+    <test-cases>
+        <test-case start='1583087320242' status='failed' stop='1583087332877'>
+            <name>Test Login | {"login":"Jeeshan","password":"ASQW"} @datadriventest</name>
+            <title>Test Login | {"login":"Jeeshan","password":"ASQW"} @datadriventest</title>
+            <labels>
+                <label name='tag' value='@datadriventest'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1583087325583' status='passed' stop='1583087332876'>
+                    <name>I am on page "https://www.cleartrip.com/"</name>
+                    <title>I am on page "https://www.cleartrip.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='5dac44bc-3f0e-48b1-af6c-3eb9de4432e8-attachment.png' type='image/png' size='107065'/>
+            </attachments>
+            <failure>
+                <message>Cannot read property 'yourTripsLink' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'yourTripsLink' of undefined
+                    at Object.clickYourTripsLink (D:\cleartripautomation\pages\searchflight.js:96:49)
+                    at Test.&lt;anonymous> (D:\cleartripautomation\tests\signin_test.js:11:18)
+                    at Context.test.fn (D:\cleartripautomation\node_modules\codeceptjs\lib\scenario.js:78:14)
+                    at callFnAsync (D:\cleartripautomation\node_modules\mocha\lib\runnable.js:415:21)
+                    at Test.Runnable.run (D:\cleartripautomation\node_modules\mocha\lib\runnable.js:357:7)
+                    at Runner.runTest (D:\cleartripautomation\node_modules\mocha\lib\runner.js:535:10)
+                    at D:\cleartripautomation\node_modules\mocha\lib\runner.js:653:12
+                    at next (D:\cleartripautomation\node_modules\mocha\lib\runner.js:447:14)
+                    at D:\cleartripautomation\node_modules\mocha\lib\runner.js:457:7
+                    at next (D:\cleartripautomation\node_modules\mocha\lib\runner.js:362:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1583087335046' status='failed' stop='1583087351487'>
+            <name>Test Login | {"login":"Pranav","password":"pranav"} @datadriventest</name>
+            <title>Test Login | {"login":"Pranav","password":"pranav"} @datadriventest</title>
+            <labels>
+                <label name='tag' value='@datadriventest'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1583087340341' status='passed' stop='1583087351487'>
+                    <name>I am on page "https://www.cleartrip.com/"</name>
+                    <title>I am on page "https://www.cleartrip.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='778a95bd-9b9b-4c1d-9406-553f32784d4c-attachment.png' type='image/png' size='107111'/>
+            </attachments>
+            <failure>
+                <message>Cannot read property 'yourTripsLink' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'yourTripsLink' of undefined
+                    at Object.clickYourTripsLink (D:\cleartripautomation\pages\searchflight.js:96:49)
+                    at Test.&lt;anonymous> (D:\cleartripautomation\tests\signin_test.js:11:18)
+                    at Context.test.fn (D:\cleartripautomation\node_modules\codeceptjs\lib\scenario.js:78:14)
+                    at callFnAsync (D:\cleartripautomation\node_modules\mocha\lib\runnable.js:415:21)
+                    at Test.Runnable.run (D:\cleartripautomation\node_modules\mocha\lib\runnable.js:357:7)
+                    at Runner.runTest (D:\cleartripautomation\node_modules\mocha\lib\runner.js:535:10)
+                    at D:\cleartripautomation\node_modules\mocha\lib\runner.js:653:12
+                    at next (D:\cleartripautomation\node_modules\mocha\lib\runner.js:447:14)
+                    at D:\cleartripautomation\node_modules\mocha\lib\runner.js:457:7
+                    at next (D:\cleartripautomation\node_modules\mocha\lib\runner.js:362:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

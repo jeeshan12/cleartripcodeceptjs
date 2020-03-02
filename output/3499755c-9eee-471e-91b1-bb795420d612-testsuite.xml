@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1582985008792' stop='1582985011436'>
+    <name>Book a round trip:</name>
+    <title>Book a round trip:</title>
+    <test-cases>
+        <test-case start='1582985008794' status='failed' stop='1582985010704'>
+            <name>Book Flight from Banaglore to Delhi</name>
+            <title>Book Flight from Banaglore to Delhi</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='5f552297-529d-45c8-bcd2-abc36811f0a0-attachment.png' type='image/png' size='4692'/>
+            </attachments>
+            <failure>
+                <message>ENOENT: no such file or directory, open '../testdata/flightData.json'</message>
+                <stack-trace>Error: ENOENT: no such file or directory, open '../testdata/flightData.json'
+                    at Object.openSync (fs.js:440:3)
+                    at Object.readFileSync (fs.js:342:35)
+                    at Object.readJsonFile (D:\cleartripautomation\helperutils\jsonreaderutil.js:8:15)
+                    at Test.&lt;anonymous> (D:\cleartripautomation\tests\roundtrip_test.js:8:29)
+                    at Context.test.fn (D:\cleartripautomation\node_modules\codeceptjs\lib\scenario.js:78:14)
+                    at callFnAsync (D:\cleartripautomation\node_modules\mocha\lib\runnable.js:415:21)
+                    at Test.Runnable.run (D:\cleartripautomation\node_modules\mocha\lib\runnable.js:357:7)
+                    at Runner.runTest (D:\cleartripautomation\node_modules\mocha\lib\runner.js:535:10)
+                    at D:\cleartripautomation\node_modules\mocha\lib\runner.js:653:12
+                    at next (D:\cleartripautomation\node_modules\mocha\lib\runner.js:447:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

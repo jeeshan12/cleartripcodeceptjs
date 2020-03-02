@@ -42,6 +42,19 @@ module.exports = {
 
     search: searchFlightPageConstants.searchFlightConstants.btnSearch,
 
+    trips: {
+        yourTripsLink: searchFlightPageConstants.searchFlightConstants.yourTrips,
+        signInButton: searchFlightPageConstants.searchFlightConstants.signIn
+    },
+
+    events: {
+        flightDealsLink: searchFlightPageConstants.searchFlightConstants.flightDeals
+    },
+
+    clickFlightDeals() {
+        commonUtils.clickElement(this.events.flightDealsLink)
+    },
+
     clickRoundTripRadioButton() {
         commonUtils.checkCheckBoxOrRadioButton(this.trip.roundTrip)
 
@@ -56,7 +69,7 @@ module.exports = {
 
     selectDepartAndArrivalDate(departureDate, arrivalDate) {
         commonUtils.clickExpectedElementInListorTable(this.date.departDate, 'a', departureDate)
-        commonUtils.clickExpectedElementInListorTable(this.date.departDate, 'a', arrivalDate)
+        commonUtils.clickExpectedElementInListorTable(this.date.arrivalDate, 'a', arrivalDate)
     },
 
     selectAdults(adultsCount) {
@@ -86,6 +99,13 @@ module.exports = {
 
     clickSearchButton() {
         commonUtils.clickElement(this.search)
+    },
+    clickYourTripsLink() {
+        commonUtils.clickElement(this.trips.yourTripsLink)
+    },
+
+    clickSignInButton() {
+        commonUtils.clickElement(this.trips.signInButton)
     }
 
 

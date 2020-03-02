@@ -1,0 +1,24 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583169102415' stop='1583169114614'>
+    <name>Testing the api feature:</name>
+    <title>Testing the api feature:</title>
+    <test-cases>
+        <test-case start='1583169102416' status='passed' stop='1583169114206'>
+            <name>Testing post request @apipost</name>
+            <title>Testing post request @apipost</title>
+            <labels>
+                <label name='tag' value='@apipost'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1583169104113' status='passed' stop='1583169114205'>
+                    <name>I send post request "/posts", {"title":"foo","body":"bar","userId":106}</name>
+                    <title>I send post request "/posts", {"title":"foo","body":"bar","userId":106}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,191 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583089453281' stop='1583089514656'>
+    <name>Book a round trip:</name>
+    <title>Book a round trip:</title>
+    <test-cases>
+        <test-case start='1583089453283' status='failed' stop='1583089475467'>
+            <name>Test Login | {"login":"Jeeshan","password":"ASQW"} @datadriventest</name>
+            <title>Test Login | {"login":"Jeeshan","password":"ASQW"} @datadriventest</title>
+            <labels>
+                <label name='tag' value='@datadriventest'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1583089454934' status='passed' stop='1583089465780'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1583089465780' status='passed' stop='1583089467477'>
+                    <name>Object: clickElement </name>
+                    <title>Object: clickElement </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1583089465780' status='passed' stop='1583089465789'>
+                            <name>I wait for element "#userAccountLink"</name>
+                            <title>I wait for element "#userAccountLink"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583089465890' status='passed' stop='1583089466619'>
+                            <name>I click "#userAccountLink"</name>
+                            <title>I click "#userAccountLink"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583089466619' status='passed' stop='1583089466626'>
+                            <name>I wait for element "#SignIn"</name>
+                            <title>I wait for element "#SignIn"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583089466726' status='passed' stop='1583089467466'>
+                            <name>I click "#SignIn"</name>
+                            <title>I click "#SignIn"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1583089467477' status='passed' stop='1583089470755'>
+                    <name>Within "{"frame":"#modal_window"}" </name>
+                    <title>Within "{"frame":"#modal_window"}" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1583089467477' status='passed' stop='1583089467482'>
+                            <name>I wait for element "#email"</name>
+                            <title>I wait for element "#email"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583089467482' status='passed' stop='1583089467487'>
+                            <name>I see element "#email"</name>
+                            <title>I see element "#email"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583089467588' status='passed' stop='1583089468630'>
+                            <name>I fill field "#email", "aaa"</name>
+                            <title>I fill field "#email", "aaa"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583089468630' status='passed' stop='1583089468636'>
+                            <name>I wait for element "#password"</name>
+                            <title>I wait for element "#password"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583089468636' status='passed' stop='1583089468640'>
+                            <name>I see element "#password"</name>
+                            <title>I see element "#password"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583089468755' status='passed' stop='1583089469898'>
+                            <name>I fill field "#password", "bbbb"</name>
+                            <title>I fill field "#password", "bbbb"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583089469898' status='passed' stop='1583089469904'>
+                            <name>I wait for element "#signInButton"</name>
+                            <title>I wait for element "#signInButton"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583089470005' status='passed' stop='1583089470744'>
+                            <name>I click "#signInButton"</name>
+                            <title>I click "#signInButton"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1583089470755' status='failed' stop='1583089475467'>
+                    <name>signIn: enterUserCredentials </name>
+                    <title>signIn: enterUserCredentials </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1583089470755' status='failed' stop='1583089475466'>
+                            <name>I grab text from "#errors1"</name>
+                            <title>I grab text from "#errors1"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='f8bfd894-bdcf-4e00-ac8c-d61e7a6d482a-attachment.png' type='image/png' size='117206'/>
+            </attachments>
+            <failure>
+                <message>Element "#errors1" was not found by text|CSS|XPath</message>
+                <stack-trace>Error: Element "#errors1" was not found by text|CSS|XPath
+                    at new ElementNotFound (D:\cleartripautomation\node_modules\codeceptjs\lib\helper\errors\ElementNotFound.js:14:11)
+                    at assertElementExists (D:\cleartripautomation\node_modules\codeceptjs\lib\helper\Puppeteer.js:2335:11)
+                    at Puppeteer.grabTextFrom (D:\cleartripautomation\node_modules\codeceptjs\lib\helper\Puppeteer.js:1454:5)
+                    at processTicksAndRejections (internal/process/task_queues.js:94:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1583089477360' status='failed' stop='1583089512881'>
+            <name>Test Login | {"login":"Pranav","password":"pranav"} @datadriventest</name>
+            <title>Test Login | {"login":"Pranav","password":"pranav"} @datadriventest</title>
+            <labels>
+                <label name='tag' value='@datadriventest'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1583089478643' status='passed' stop='1583089508074'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1583089508074' status='failed' stop='1583089512881'>
+                    <name>Object: clickElement </name>
+                    <title>Object: clickElement </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1583089508074' status='passed' stop='1583089508081'>
+                            <name>I wait for element "#userAccountLink"</name>
+                            <title>I wait for element "#userAccountLink"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583089508193' status='failed' stop='1583089512881'>
+                            <name>I click "#userAccountLink"</name>
+                            <title>I click "#userAccountLink"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='8dc95117-9599-47e9-91d2-1c5c321edd65-attachment.png' type='image/png' size='89464'/>
+            </attachments>
+            <failure>
+                <message>Execution context was destroyed, most likely because of a navigation.</message>
+                <stack-trace>Error: Execution context was destroyed, most likely because of a navigation.
+                    at rewriteError (D:\cleartripautomation\node_modules\puppeteer\lib\ExecutionContext.js:167:15)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+                    at async ExecutionContext._evaluateInternal (D:\cleartripautomation\node_modules\puppeteer\lib\ExecutionContext.js:120:56)
+                    at async ElementHandle.evaluateHandle (D:\cleartripautomation\node_modules\puppeteer\lib\JSHandle.js:63:12)
+                    at async ElementHandle.$$ (D:\cleartripautomation\node_modules\puppeteer\lib\JSHandle.js:480:25)
+                    at async Puppeteer.proceedClick (D:\cleartripautomation\node_modules\codeceptjs\lib\helper\Puppeteer.js:2094:15)
+                  -- ASYNC --
+                    at ExecutionContext.&lt;anonymous> (D:\cleartripautomation\node_modules\puppeteer\lib\helper.js:111:15)
+                    at ElementHandle.evaluateHandle (D:\cleartripautomation\node_modules\puppeteer\lib\JSHandle.js:63:42)
+                    at ElementHandle.&lt;anonymous> (D:\cleartripautomation\node_modules\puppeteer\lib\helper.js:112:23)
+                    at ElementHandle.$$ (D:\cleartripautomation\node_modules\puppeteer\lib\JSHandle.js:480:36)
+                    at ElementHandle.&lt;anonymous> (D:\cleartripautomation\node_modules\puppeteer\lib\helper.js:112:23)
+                    at Puppeteer.findElements (D:\cleartripautomation\node_modules\codeceptjs\lib\helper\Puppeteer.js:2083:42)
+                    at Puppeteer.findClickable (D:\cleartripautomation\node_modules\codeceptjs\lib\helper\Puppeteer.js:2112:47)
+                    at Puppeteer.proceedClick (D:\cleartripautomation\node_modules\codeceptjs\lib\helper\Puppeteer.js:2094:35)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

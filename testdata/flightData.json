@@ -1,0 +1,15 @@
+{
+    "flightData": {
+        "departureStation": "Bangalore",
+        "arrivalStation": "Delhi",
+        "toDay": 4,
+        "adults": "2",
+        "childtren": "1",
+        "infants": "1",
+        "class": "First",
+        "airline": "Indigo",
+        "fullAirlineName": "IndiGo (6E)",
+        "day": "days",
+        "format": "DD"
+    }
+}

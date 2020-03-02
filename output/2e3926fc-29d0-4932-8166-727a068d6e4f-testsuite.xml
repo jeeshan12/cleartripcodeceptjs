@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583164165577' stop='1583164209681'>
+    <name>Flight Deals Scenario : Switching tab:</name>
+    <title>Flight Deals Scenario : Switching tab:</title>
+    <test-cases>
+        <test-case start='1583164165579' status='passed' stop='1583164204325'>
+            <name>Test will check the flightDeals @newwindow</name>
+            <title>Test will check the flightDeals @newwindow</title>
+            <labels>
+                <label name='tag' value='@newwindow'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1583164170841' status='passed' stop='1583164183372'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1583164183372' status='passed' stop='1583164184265'>
+                    <name>Object: clickElement </name>
+                    <title>Object: clickElement </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1583164183372' status='passed' stop='1583164183381'>
+                            <name>I wait for element "//a[contains(@title,"Top flight deals")]"</name>
+                            <title>I wait for element "//a[contains(@title,"Top flight deals")]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583164183482' status='passed' stop='1583164184265'>
+                            <name>I click "//a[contains(@title,"Top flight deals")]"</name>
+                            <title>I click "//a[contains(@title,"Top flight deals")]"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1583164184265' status='passed' stop='1583164187026'>
+                    <name>I switch to next tab 1</name>
+                    <title>I switch to next tab 1</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1583164187027' status='passed' stop='1583164197027'>
+                    <name>I wait 10</name>
+                    <title>I wait 10</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1583164197128' status='passed' stop='1583164203225'>
+                    <name>I fill field "#edit-name", "Jeeshan"</name>
+                    <title>I fill field "#edit-name", "Jeeshan"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1583164203225' status='passed' stop='1583164204325'>
+                    <name>I close current tab </name>
+                    <title>I close current tab </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

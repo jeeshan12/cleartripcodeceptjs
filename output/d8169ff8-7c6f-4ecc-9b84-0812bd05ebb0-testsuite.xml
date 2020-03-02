@@ -1,0 +1,85 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583087763487' stop='1583087792738'>
+    <name>Book a round trip:</name>
+    <title>Book a round trip:</title>
+    <test-cases>
+        <test-case start='1583087763490' status='failed' stop='1583087776556'>
+            <name>Test Login | {"login":"Jeeshan","password":"ASQW"} @datadriventest</name>
+            <title>Test Login | {"login":"Jeeshan","password":"ASQW"} @datadriventest</title>
+            <labels>
+                <label name='tag' value='@datadriventest'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1583087765028' status='passed' stop='1583087775703'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1583087775805' status='passed' stop='1583087776545'>
+                    <name>I click "#userAccountLink"</name>
+                    <title>I click "#userAccountLink"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='cf8a12e7-7f0a-4b82-b67a-d6a969a411c4-attachment.png' type='image/png' size='122568'/>
+            </attachments>
+            <failure>
+                <message>Cannot read property 'yourTripsLink' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'yourTripsLink' of undefined
+                    at Object.clickYourTripsLink (D:\cleartripautomation\pages\searchflight.js:96:49)
+                    at Test.&lt;anonymous> (D:\cleartripautomation\tests\signin_test.js:12:18)
+                    at Context.test.fn (D:\cleartripautomation\node_modules\codeceptjs\lib\scenario.js:78:14)
+                    at callFnAsync (D:\cleartripautomation\node_modules\mocha\lib\runnable.js:415:21)
+                    at Test.Runnable.run (D:\cleartripautomation\node_modules\mocha\lib\runnable.js:357:7)
+                    at Runner.runTest (D:\cleartripautomation\node_modules\mocha\lib\runner.js:535:10)
+                    at D:\cleartripautomation\node_modules\mocha\lib\runner.js:653:12
+                    at next (D:\cleartripautomation\node_modules\mocha\lib\runner.js:447:14)
+                    at D:\cleartripautomation\node_modules\mocha\lib\runner.js:457:7
+                    at next (D:\cleartripautomation\node_modules\mocha\lib\runner.js:362:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1583087778233' status='failed' stop='1583087790857'>
+            <name>Test Login | {"login":"Pranav","password":"pranav"} @datadriventest</name>
+            <title>Test Login | {"login":"Pranav","password":"pranav"} @datadriventest</title>
+            <labels>
+                <label name='tag' value='@datadriventest'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1583087779856' status='passed' stop='1583087790008'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1583087790110' status='passed' stop='1583087790855'>
+                    <name>I click "#userAccountLink"</name>
+                    <title>I click "#userAccountLink"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='2b554d06-de5e-4ce7-b861-d86436662dd8-attachment.png' type='image/png' size='122568'/>
+            </attachments>
+            <failure>
+                <message>Cannot read property 'yourTripsLink' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'yourTripsLink' of undefined
+                    at Object.clickYourTripsLink (D:\cleartripautomation\pages\searchflight.js:96:49)
+                    at Test.&lt;anonymous> (D:\cleartripautomation\tests\signin_test.js:12:18)
+                    at Context.test.fn (D:\cleartripautomation\node_modules\codeceptjs\lib\scenario.js:78:14)
+                    at callFnAsync (D:\cleartripautomation\node_modules\mocha\lib\runnable.js:415:21)
+                    at Test.Runnable.run (D:\cleartripautomation\node_modules\mocha\lib\runnable.js:357:7)
+                    at Runner.runTest (D:\cleartripautomation\node_modules\mocha\lib\runner.js:535:10)
+                    at D:\cleartripautomation\node_modules\mocha\lib\runner.js:653:12
+                    at next (D:\cleartripautomation\node_modules\mocha\lib\runner.js:447:14)
+                    at D:\cleartripautomation\node_modules\mocha\lib\runner.js:457:7
+                    at next (D:\cleartripautomation\node_modules\mocha\lib\runner.js:362:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

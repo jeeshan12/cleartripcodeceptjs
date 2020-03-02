@@ -1,0 +1,61 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583169597292' stop='1583169612066'>
+    <name>Testing the api feature:</name>
+    <title>Testing the api feature:</title>
+    <test-cases>
+        <test-case start='1583169597293' status='passed' stop='1583169601498'>
+            <name>Testing post request @apipost @apitest</name>
+            <title>Testing post request @apipost @apitest</title>
+            <labels>
+                <label name='tag' value='@apipost'/>
+                <label name='tag' value='@apitest'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1583169599201' status='passed' stop='1583169601497'>
+                    <name>I send post request "/posts", {"title":"foo","body":"bar","userId":106}</name>
+                    <title>I send post request "/posts", {"title":"foo","body":"bar","userId":106}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1583169601955' status='passed' stop='1583169605418'>
+            <name>Test put request @apiput @apitest</name>
+            <title>Test put request @apiput @apitest</title>
+            <labels>
+                <label name='tag' value='@apiput'/>
+                <label name='tag' value='@apitest'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1583169603703' status='passed' stop='1583169605415'>
+                    <name>I send put request "/posts/1", {"id":1,"title":"foo","body":"bar","userId":1}</name>
+                    <title>I send put request "/posts/1", {"id":1,"title":"foo","body":"bar","userId":1}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1583169607331' status='passed' stop='1583169611548'>
+            <name>Test put request @apipatch @apitest</name>
+            <title>Test put request @apipatch @apitest</title>
+            <labels>
+                <label name='tag' value='@apipatch'/>
+                <label name='tag' value='@apitest'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1583169609031' status='passed' stop='1583169611546'>
+                    <name>I send patch request "/posts/1", {"title":"Patch reuqest modification"}</name>
+                    <title>I send patch request "/posts/1", {"title":"Patch reuqest modification"}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

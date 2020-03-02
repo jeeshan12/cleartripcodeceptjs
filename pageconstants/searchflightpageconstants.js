@@ -16,7 +16,10 @@ var searchFlightConstants = {
     listClass: '#Class',
     txtAirline: "#AirlineAutocomplete",
     listAirline: "#ui-id-3",
-    btnSearch: '#SearchBtn'
+    btnSearch: '#SearchBtn',
+    yourTrips: '#userAccountLink',
+    signIn: '#SignIn',
+    flightDeals: '//a[contains(@title,"Top flight deals")]'
 
 }
 

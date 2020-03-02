@@ -10,6 +10,13 @@ exports.config = {
   tests: './tests/*_test.js',
   output: './output',
   helpers: {
+    REST: {
+      endpoint: 'https://jsonplaceholder.typicode.com',
+      defaultHeaders: {
+        'Content-Type': 'application/json'
+      },
+
+    },
     Puppeteer: {
       url: 'https://www.cleartrip.com',
       show: true,
@@ -18,44 +25,19 @@ exports.config = {
       fullPageScreenshots: true,
       uniqueScreenshotNames: true,
       pressKeyDelay: 100,
-      getPageTimeout: 20000,
+      getPageTimeout: 60000,
       waitForNavigation: ["domcontentloaded", "networkidle0"],
       chrome: {
         args: ['--disable-notifications', '--start - maximized', '--window-size=1920,1080']
       },
-    },
-    PuppeteerHelper: {
-      require: './puppeteerhelper_helper.js',
-    },
-
-    ApiDataFactory: {
-      endpoint: "http://user.com/api",
-      cleanup: true,
-      headers: {
-        'Content-Type': 'application/json',
-        'Accept': 'application/json',
-      },
-      factories: {
-        post: {
-          uri: "/posts",
-          factory: "./factories/post",
-        },
-        comment: {
-          factory: "./factories/comment",
-          create: {
-            post: "/comments/create"
-          },
-          delete: {
-            post: "/comments/delete/{id}"
-          },
-          fetchId: (data) => data.result.id
-        }
-      }
     }
   },
   include: {
     I: './steps_file.js',
-    searchFlight: './pages/searchflight.js'
+    searchFlight: './pages/searchflight.js',
+    signIn: './pages/signIn.js',
+    modal: './fragments/modal.js',
+    commonfeaturesStep: './steps/commonfeatures.js'
 
   },
   bootstrap: null,
@@ -73,6 +55,13 @@ exports.config = {
     },
     allure: {
       enabled: true
+    },
+
+    ResembleHelper: {
+      require: "codeceptjs-resemblehelper",
+      screenshotFolder: "./tests/output/",
+      baseFolder: "./tests/screenshots/base/",
+      diffFolder: "./tests/screenshots/diff/"
     }
   }
 }

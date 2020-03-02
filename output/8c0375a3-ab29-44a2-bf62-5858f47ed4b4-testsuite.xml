@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583169390328' stop='1583169397244'>
+    <name>Testing the api feature:</name>
+    <title>Testing the api feature:</title>
+    <test-cases>
+        <test-case start='1583169390329' status='passed' stop='1583169393642'>
+            <name>Testing post request @apipost @apitest</name>
+            <title>Testing post request @apipost @apitest</title>
+            <labels>
+                <label name='tag' value='@apipost'/>
+                <label name='tag' value='@apitest'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1583169391817' status='passed' stop='1583169393641'>
+                    <name>I send post request "/posts", {"title":"foo","body":"bar","userId":106}</name>
+                    <title>I send post request "/posts", {"title":"foo","body":"bar","userId":106}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1583169394065' status='passed' stop='1583169396888'>
+            <name>Test put request @apiput @apitest</name>
+            <title>Test put request @apiput @apitest</title>
+            <labels>
+                <label name='tag' value='@apiput'/>
+                <label name='tag' value='@apitest'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1583169395493' status='passed' stop='1583169396887'>
+                    <name>I send put request "/posts/1", {"id":1,"title":"foo","body":"bar","userId":1}</name>
+                    <title>I send put request "/posts/1", {"id":1,"title":"foo","body":"bar","userId":1}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

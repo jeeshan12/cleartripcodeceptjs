@@ -1,0 +1,225 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583159308275' stop='1583159353511'>
+    <name>Book a round trip:</name>
+    <title>Book a round trip:</title>
+    <test-cases>
+        <test-case start='1583159308276' status='passed' stop='1583159331373'>
+            <name>Test Login | {"login":"Jeeshan","password":"ASQW"} @datadriventest</name>
+            <title>Test Login | {"login":"Jeeshan","password":"ASQW"} @datadriventest</title>
+            <labels>
+                <label name='tag' value='@datadriventest'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1583159310669' status='passed' stop='1583159326263'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1583159326263' status='passed' stop='1583159327986'>
+                    <name>Object: clickElement </name>
+                    <title>Object: clickElement </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1583159326263' status='passed' stop='1583159326272'>
+                            <name>I wait for element "#userAccountLink"</name>
+                            <title>I wait for element "#userAccountLink"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583159326379' status='passed' stop='1583159327109'>
+                            <name>I click "#userAccountLink"</name>
+                            <title>I click "#userAccountLink"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583159327109' status='passed' stop='1583159327115'>
+                            <name>I wait for element "#SignIn"</name>
+                            <title>I wait for element "#SignIn"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583159327224' status='passed' stop='1583159327977'>
+                            <name>I click "#SignIn"</name>
+                            <title>I click "#SignIn"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1583159327986' status='passed' stop='1583159331373'>
+                    <name>Within "{"frame":"#modal_window"}" </name>
+                    <title>Within "{"frame":"#modal_window"}" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1583159327986' status='passed' stop='1583159327999'>
+                            <name>I wait for element "#email"</name>
+                            <title>I wait for element "#email"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583159328000' status='passed' stop='1583159328007'>
+                            <name>I see element "#email"</name>
+                            <title>I see element "#email"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583159328110' status='passed' stop='1583159329244'>
+                            <name>I fill field "#email", "aaa"</name>
+                            <title>I fill field "#email", "aaa"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583159329244' status='passed' stop='1583159329250'>
+                            <name>I wait for element "#password"</name>
+                            <title>I wait for element "#password"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583159329250' status='passed' stop='1583159329255'>
+                            <name>I see element "#password"</name>
+                            <title>I see element "#password"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583159329356' status='passed' stop='1583159330503'>
+                            <name>I fill field "#password", "bbbb"</name>
+                            <title>I fill field "#password", "bbbb"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583159330503' status='passed' stop='1583159330511'>
+                            <name>I wait for element "#signInButton"</name>
+                            <title>I wait for element "#signInButton"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583159330611' status='passed' stop='1583159331357'>
+                            <name>I click "#signInButton"</name>
+                            <title>I click "#signInButton"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583159331363' status='passed' stop='1583159331371'>
+                            <name>I grab text from "#errors1"</name>
+                            <title>I grab text from "#errors1"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1583159333363' status='passed' stop='1583159352169'>
+            <name>Test Login | {"login":"Pranav","password":"pranav"} @datadriventest</name>
+            <title>Test Login | {"login":"Pranav","password":"pranav"} @datadriventest</title>
+            <labels>
+                <label name='tag' value='@datadriventest'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1583159334726' status='passed' stop='1583159345778'>
+                    <name>I am on page "/"</name>
+                    <title>I am on page "/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1583159345778' status='passed' stop='1583159347507'>
+                    <name>Object: clickElement </name>
+                    <title>Object: clickElement </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1583159345778' status='passed' stop='1583159345785'>
+                            <name>I wait for element "#userAccountLink"</name>
+                            <title>I wait for element "#userAccountLink"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583159345885' status='passed' stop='1583159346651'>
+                            <name>I click "#userAccountLink"</name>
+                            <title>I click "#userAccountLink"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583159346652' status='passed' stop='1583159346659'>
+                            <name>I wait for element "#SignIn"</name>
+                            <title>I wait for element "#SignIn"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583159346759' status='passed' stop='1583159347500'>
+                            <name>I click "#SignIn"</name>
+                            <title>I click "#SignIn"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1583159347507' status='passed' stop='1583159352169'>
+                    <name>Within "{"frame":"#modal_window"}" </name>
+                    <title>Within "{"frame":"#modal_window"}" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1583159347507' status='passed' stop='1583159348915'>
+                            <name>I wait for element "#email"</name>
+                            <title>I wait for element "#email"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583159348915' status='passed' stop='1583159348922'>
+                            <name>I see element "#email"</name>
+                            <title>I see element "#email"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583159349022' status='passed' stop='1583159350048'>
+                            <name>I fill field "#email", "aaa"</name>
+                            <title>I fill field "#email", "aaa"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583159350048' status='passed' stop='1583159350054'>
+                            <name>I wait for element "#password"</name>
+                            <title>I wait for element "#password"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583159350055' status='passed' stop='1583159350059'>
+                            <name>I see element "#password"</name>
+                            <title>I see element "#password"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583159350161' status='passed' stop='1583159351303'>
+                            <name>I fill field "#password", "bbbb"</name>
+                            <title>I fill field "#password", "bbbb"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583159351304' status='passed' stop='1583159351310'>
+                            <name>I wait for element "#signInButton"</name>
+                            <title>I wait for element "#signInButton"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583159351410' status='passed' stop='1583159352154'>
+                            <name>I click "#signInButton"</name>
+                            <title>I click "#signInButton"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1583159352161' status='passed' stop='1583159352167'>
+                            <name>I grab text from "#errors1"</name>
+                            <title>I grab text from "#errors1"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
